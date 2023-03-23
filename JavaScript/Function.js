@@ -98,3 +98,12 @@ function shareFruit(array , items) {
 }
 
 console.log(shareFruit(names , 'dollars'));
+
+
+function number(a,b) {
+  if(typeof a == 'number' && typeof b == 'number')
+  return a + b 
+  else return('incompatible data type')
+}
+
+console.log(number(6,7));
